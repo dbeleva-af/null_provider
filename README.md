@@ -26,7 +26,19 @@ README - this file describes the components of the demonstration.
 
 TESTING
 
+
+
+
+<img width="932" alt="Screenshot 2023-06-23 at 14 17 26" src="https://github.com/dbeleva-af/null_provider/assets/105104959/6402963d-2198-4aa9-87f7-6694d886cf50">
+
+
+
+
+
+
+
+
 terraform init - after using this command the required plugins are installed. 
-terraform plan - 
-terraform apply
+terraform plan - with this command terraform is making plan before applying the configuration
+terraform apply - this command is doing the main action - to deploy the given infrastructure anywere. In this case no infrastructure will be deployed in any cloud, because this provider is more usefull when it is used with some of its resources. An examples can be found in other repos in my profile. 
 terraform destroy - the command destroys everything that was deployed by the previous command. This means that the infrastructure will not be available.
