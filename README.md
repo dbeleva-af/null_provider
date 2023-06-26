@@ -1,4 +1,4 @@
- # Terraform configuration using terraform NULL_PROVIDER for demonstration behavior of terraform null_provider.
+ # Terraform configuration for demonstrating behavior of terraform null_provider.
 
  ## SOURCE - Terraform Registry.
  
