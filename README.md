@@ -38,6 +38,23 @@
      $ terraform plan
      $ terraform apply
 
+     - `Terraform init` will:
+        - Initalize the required plugins
+
+     - `Terraform apply` will:
+        - Apply the configuration
+
+    #### Outputs
+      - No outputs to show 
+
+
+
+
+
+
+
+    
+
 
 
 
