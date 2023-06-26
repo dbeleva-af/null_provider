@@ -1,4 +1,4 @@
- # Terraform configuration using terraform NULL_PROVIDER for demonstration behavior of terraform random provider.
+ # Terraform configuration using terraform NULL_PROVIDER for demonstration behavior of terraform null_provider.
 
  ## SOURCE - Terraform Registry.
  
@@ -46,25 +46,3 @@
 
     #### Outputs
       - No outputs to show 
-
-
-
-
-
-
-
-    
-
-
-
-
-<img width="932" alt="Screenshot 2023-06-23 at 14 17 26" src="https://github.com/dbeleva-af/null_provider/assets/105104959/6402963d-2198-4aa9-87f7-6694d886cf50">
-
-
-
-
-
-
-
-
-
