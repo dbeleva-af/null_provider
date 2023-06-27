@@ -23,26 +23,24 @@
 
   - Create `main.tf` file
 
-    ```
     provider "null" {}
-
-    ```
     
 
  ## TESTING
 
    ### Commands for testing the configuration
 
-     ```
      $ terraform init 
      $ terraform plan
      $ terraform apply
 
      - `Terraform init` will:
-        - Initalize the required plugins
+        - Install the required plugins
 
      - `Terraform apply` will:
         - Apply the configuration
 
     #### Outputs
-      - No outputs to show 
+    
+     | Name  |	Description 
+     | ----- | ----------- 
