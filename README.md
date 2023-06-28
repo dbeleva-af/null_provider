@@ -6,8 +6,6 @@
 
 - git
 - terraform (>=1.5)
-- AWS account
-- AWS credentials configured to work with terraform tool
 - Terraform installed localy
 
  ## Version of the provider
@@ -24,6 +22,7 @@
   - Create `main.tf` file
 
     provider "null" {}
+    resource "null_resource" "example" {}
     
 
  ## TESTING
@@ -38,9 +37,11 @@
         - Install the required plugins
 
      - `Terraform apply` will:
-        - Apply the configuration
+        - Create null_resource with id in the state file, but will not deploy any resources 
 
     #### Outputs
     
    | Name  |	Description 
-   | ----- | ----------- 
+   | id | The ID of the null_resource
+
+   
