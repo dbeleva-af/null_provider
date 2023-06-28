@@ -9,3 +9,12 @@ terraform {
 
 provider "null" {}
 
+resource "null_resource" "example" {
+    triggers = {
+      id = uuid()
+    }
+
+    provisioner "local-exec" {
+      command = "echo This resource is created"
+    }
+}
